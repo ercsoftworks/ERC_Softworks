@@ -1,0 +1,716 @@
+   <div id="content_main_col3">
+                <h2>Apps in Development</h2>
+                <div class="clearfix"></div>
+                <div id="app_screen1"></div>
+                <h3>Brackets 2013</h3>
+
+                <p>
+
+                    <br/>
+                    Looking for a better bowling bracketing software? EC Computers is currently
+                    working with bowling experts to create a solution that is intuitive, efficient,
+                    and takes advantage of the Microsoft Office Ribbon interface.
+                </p>
+                <a href="contact.html">Contact us for more information.</a>
+            </div>
+
+
+
+
+
+     <div id="content_bucket_1_header">
+            WEBSITE CREATION &amp; DESIGN
+            </div>
+            <a href="portfolio.html"><div id="content_bucket_1_image" class="feature_image"></div></a>
+            </div>
+            <div id="content_bucket_2">
+            <div id="content_bucket_2_header">
+            CUSTOM SOFTWARE
+            </div>
+            <a href="portfolio.html"><div id="content_bucket_2_image" class="feature_image"></div></a>
+            </div>
+            <div id="content_bucket_3" class="">
+            <div id="content_bucket_3_header">
+            COMPUTER SUPPORT
+            </div>
+            <a href="portfolio.html"><div id="content_bucket_3_image" class="feature_image"></div></a>
+            
+            
+  /*******use for services page********/            <div id="content_main_col1">
+
+                <h2>Web Development</h2>
+                <p>
+                    All of our websites utiilze current design techniques,
+                    are built upon clean code behind-the-scenes, and are tailored to your exact specifications.
+                    <br/>
+                    <br/>
+                    Our sites use :
+                </p>
+
+                <ul>
+
+                    <li>
+                        HTML5 &amp; CSS3.
+                    </li>
+                    <li>
+                        Javascript, jQuery, &amp; MySQL.
+                    </li>
+                    <li>
+                        ASP.NET MVC4
+                    </li>
+                    <li>
+                        100% Original Code- NO Templates!
+                    </li>
+                </ul>
+               
+            </div>
+            <div id="content_main_col2">
+
+                <h2>Custom Software Design</h2>
+                <p>
+                    The days of overpaying for software are over.
+                    
+                    Small buisness apps or enterprise solutions...
+                    Let us design, build, and publish your next app.
+                    <br/>
+
+                    <br/>
+                    Our apps are built with:
+                    <br/>
+                </p>
+                <ul>
+                    <li>
+                        C# and the .NET 4.5 Framework
+                    </li>
+                    <li>
+                        WPF &amp; XAML
+                    </li>
+                    <li>
+                        MS-SQL / T-SQL Database Connectivity
+                    </li>
+                    <li>
+                        Custom UI Controls Available.
+                    </li>
+                </ul>
+
+            </div>
+            <div id="content_main_col3">
+                <h2>Most Recent Work</h2>
+                
+                
+                <p>NEWEST WEBSITES: <br/>
+                12/28/2012 <a href="http://eastcoastdrymarchon.com">East Coast Drymarchon</a>
+                <br/>
+                
+                12/20/2012 <a href="http://mac-plumbing.com">MAC Plumbing, LLC.</a>
+                </p>
+            </div>          
+            
+   /****************************Three buckets with clients, principles, news*************************/
+   
+                    <div id="content_box_right_bottom">
+                        <div id="bottom_column_1">
+                            <div id="bottom_column_header_1">
+                                <h2>CLIENTS</h2>
+                                <div class = "clearfix"></div>
+
+                            </div>
+                            <div id="bottom_column_1_img"></div>
+
+                            <div class="clearfix"></div>
+                            <h3>They're important to us!</h3>
+                            <div class="clearfix"></div>
+                            <p>
+
+                                That's why we strive to foster excellent relationships with each and every
+                                single one and pride ourselves in exceeding exepectations.
+                                <br/>
+                                <br/>
+                                <a href="portfolio.html">>
+                                View Our Work</a>
+                            </p>
+                        </div>
+                        <div id="bottom_column_2">
+                            <div id="bottom_column_header_2">
+                                <h2>PRINCIPLES</h2>
+                                <div class="clearfix"></div>
+                            </div>
+
+                            <div id="bottom_column_2_img"></div>
+
+                            <h3>We have 5 principles.</h3>
+                            <p>
+
+                                1. Professional Service.
+                                <br/>
+                                2. Clean Design.
+                                <br/>
+                                3. Rock-Solid Code.
+                                <br/>
+                                4. Reasonable Pricing.
+                                <br/>
+                                5. Integrity and Honesty.
+                                <br/>
+
+                                <a href="contact.html">>Find out more...</a>
+
+                            </p>
+                        </div>
+                        <div id="bottom_column_3">
+                            <div id="bottom_column_header_3">
+                                <h2> NEWS </h2>
+                                <div class="clearfix"></div>
+
+                            </div>
+                            <div id="bottom_column_3_img"></div>
+                            <div class="clearfix"></div>
+                            <h3>2/1/2013:</h3>
+                            <p>
+                                Collier Green Team added as a new client! </br>
+
+                            </p>
+                            <h3>2/7/2013:</h3>
+                            <p>
+                                East Coast Drymarchon added as a new client!</br>
+                            </p>
+
+                        </div>
+                        <div id="content_box_right_top_img"></div>
+
+                        <div id="content_box_right_top">
+
+                            <h2>COMPANY OVERVIEW</h2>
+                            <p>
+                                Since our founding in 2010, we've had the
+                                pleasure of bringing our clients' digital ideas to life.  We combine hands-on experience,
+                                formal education in computer science, and modern design into every website and app we deliver.
+                                Let us help you realize your next big idea!
+                                <br/>
+
+                                <a href="services.html">>Learn more about our services.</a>
+                            </p>
+
+                        </div>
+                    </div>         
+            
+            
+            
+            
+            
+            
+            
+            /******3 content buckets*******/
+            /*******Test styles for bucket and feature jquery images********/
+#content_bucket_1 {
+	-moz-border-radius: 15px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	margin-top: 15px;
+	float: left;
+	width: 321px;
+	height: 250px;
+	background: #4A4A3E;
+	margin-right: 3%;
+	margin-left: 2%;
+}
+
+#content_bucket_1_header {
+	-moz-border-radius: 15px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	padding-top: 5px;
+	font-family: MuseoSans500;
+	color: #F1EFE1;
+	font-size: 20px;
+	background: none;
+	width: 321px;
+	height: 50px;
+	text-align: center;
+}
+#content_bucket_1_image {
+	width: auto;
+	margin-left: 54px;
+	margin-top: 18px;
+	height: 170px;
+	background: url(images/Texture01.jpg) no-repeat;
+	-moz-border-radius: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+#content_bucket_2 {
+	-moz-border-radius: 15px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	margin-top: 15px;
+	float: left;
+	width: 321px;
+	height: 250px;
+	background: #4A4A3E;
+	margin-right: 3%;
+}
+
+#content_bucket_2_header {
+	color: #F1EFE1;
+	-moz-border-radius: 15px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	padding-top: 5px;
+	font-family: MuseoSans500;
+	font-size: 20px;
+	width: 321px;
+	height: 50px;
+	text-align: center;
+}
+#content_bucket_2_image {
+	width: auto;
+	margin-left: 54px;
+	margin-top: 18px;
+	height: 170px;
+	background: url(images/Texture05.png) no-repeat;
+}
+
+#content_bucket_3 {
+	color: #F1EFE1;
+	-moz-border-radius: 15px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	margin-top: 15px;
+	float: left;
+	width: 321px;
+	height: 250px;
+	background: #4A4A3E;
+	margin-right: 2%;
+}
+
+#content_bucket_3_header {
+	-moz-border-radius: 15px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	padding-top: 5px;
+	font-family: MuseoSans500;
+	font-size: 20px;
+	width: 321px;
+	height: 50px;
+	text-align: center;
+}
+#content_bucket_3_image {
+
+	width: auto;
+	margin-left: 54px;
+	margin-top: 18px;
+	height: 170px;
+	-moz-border-radius: 15px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background: url(images/Texture04.png) no-repeat;
+}
+
+
+
+
+
+
+/*********************************columns****************************/
+
+#content_main_col1 {
+	margin-top: 20px;
+	margin-left: 0%;
+	margin-right: 5%;
+	float: left;
+	width: 321px;
+	height: 685px;
+	color: black;
+}
+
+#content_main_col1 ul {
+	list-style: disc;
+	clear: both;
+	color: black;
+}
+
+#content_main_col1 li {
+	text-transform: none;
+	width: 300px;
+	font-family: "Raleway", sans-serif;
+	border-bottom: 1px solid #C7C7B7;
+	margin-left: -10px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	margin-right: 10px;
+	color: black;
+}
+
+#content_main_col1 h2 {
+
+	width: 340px;
+	clear: both;
+	text-align: center;
+	height: 45px;
+	margin-left: 0px;
+}
+#content_main_col1 p {
+	color: black;
+}
+
+#content_main_col1 button {
+	height: 50px;
+	width: 150px;
+	margin-left: 30px;
+	float: left;
+	background: #BC0000;
+	color: #F1F1F1;
+	border: none;
+}
+
+#content_main_col1_img {
+	height: 200px;
+	width: 200px;
+	background: url(images/sprite2.png);
+	background-position: 0px -1070px;
+	float: left;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+/********Use on col2,col3 on services page.********/
+#content_main_col2 {
+
+	margin-top: 20px;
+	margin-left: 20px;
+	float: left;
+	width: 500px;
+	height: 685px;
+	color: black;
+	margin-bottom: 35px;
+}
+
+#content_main_col2 ul {
+	list-style: disc;
+	clear: both;
+	color: black;
+}
+
+#content_main_col2 li {
+	text-transform: none;
+	width: 300px;
+	font-family: "Raleway", sans-serif;
+	border-bottom: 1px solid #C7C7B7;
+	margin-left: -10px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	margin-right: 10px;
+	color: black;
+}
+
+#content_main_col2 h2 {
+
+	width: 500px;
+	clear: both;
+	text-align: center;
+	height: 45px;
+	margin-left: 0px;
+}
+
+#content_main_col2 p {
+	color: black;
+}
+
+#content_main_col2_img {
+	height: 200px;
+	width: 200px;
+	background: url(images/sprite2.png);
+	background-position: 0px -1280px;
+	float: left;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+#content_main_col2 button {
+	height: 50px;
+	width: 150px;
+	margin-left: 30px;
+	float: left;
+	background: #BC0000;
+	color: #F1F1F1;
+	border: none;
+}
+
+#content_main_col2 form {
+	width: auto;
+	height: auto;
+}
+
+#content_main_col3 {
+
+	margin-top: 20px;
+	float: right;
+	width: 340px;
+	height: 475px;
+	color: black;
+	background: #E8E8E8;
+	margin-right: 0px;
+}
+
+#content_main_col3 h2 {
+	/**width: 270px;
+	 clear: both;
+	 color: black;
+	 text-align: left;
+	 padding-left: 30px;**/
+	background: #333333;
+	color: #F1F1F1;
+	width: 340px;
+	clear: both;
+	text-align: center;
+	height: 45px;
+	margin-left: 0px;
+}
+
+#content_main_col3 p {
+	color: black;
+	margin-top: -10px;
+}
+#content_main_col3 a {
+	text-decoration: none;
+	color: #BC0000;
+	font-family: MuseoSans500;
+	margin-left: 15px;
+}
+#content_main_col3 h3 {
+	width: 340px;
+	clear: both;
+	text-align: center;
+	padding-left: 7px;
+	height: 20px;
+}
+#app_screen1 {
+	margin-left: 87px;
+	margin-right: 67px;
+	width: 185px;
+	height: 140px;
+	background: url(images/brackets_screenshot1_xsmall.png);
+	margin-bottom: 10px;
+}
+
+#app_screen2 {
+	float: left;
+	width: 185px;
+	height: 140px;
+	background: #500B07;
+	margin-bottom: 10px;
+}
+
+
+#footer {
+	float: left;
+	width: 100%;
+	height: 290px;
+	bottom: 0;
+	margin-top: -290px;
+	margin-left: auto;
+	margin-right: auto;
+	/**border-top: #3F3F3F 3px solid;**/
+	background: #333333;
+	color: black;
+}
+#footer p {
+	color: black;
+	font-size: 18px;
+}
+
+#footer ul, li {
+	text-transform: uppercase;
+	width: auto;
+	margin-top: 5px;
+	margin-left: -10px;
+	text-align: left;
+}
+
+#footer a {
+	color: black;
+	text-decoration: none;
+}
+#footer_content_box {
+	width: 1070px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+}
+/**columns for the footer boxes**/
+#footer_content_left {
+	text-align: left;
+	float: left;
+	width: 300px;
+	height: 290px;
+}
+#footer_content_center {
+	text-align: left;
+	float: left;
+	width: 200px;
+	height: 290px;
+}
+#footer_content_right {
+	width: 550px;
+	text-align: left;
+	float: left;
+	height: 290px;
+}
+
+/****Contains Copyright, and repeated links****/
+#footer_bottom {
+
+	width: 1070px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#footer_bottom_copy {
+	width: 1070px;
+	height: 40px;
+	padding-top: 5px;
+	margin-top: 15px;
+	margin-left: -10px;
+	margin-right: -10px;
+	font-family: 'Pirata One', cursive;
+	font-size: 13px;
+	color: #F1EFE1;
+}
+
+#content_web_design {
+	float: left;
+	width: 523px;
+	height: auto;
+	margin-left: 10px;
+	margin-right: auto;
+	margin-bottom: 40px;
+}
+#content_web_design_img {
+	float: left;
+	width: 1050px;
+	height: 325px;
+	margin-left: 10px;
+	margin-right: auto;
+	background: url(images/web_design_bg.png);
+	/**-moz-box-shadow: 0 10px 10px -7px #555;
+	 -webkit-box-shadow: 0 10px 10px -7px #555;
+	 box-shadow: 0 10px 10px -7px #555;**/
+}
+
+#content_web_design_right {
+
+	float: left;
+	width: 510px;
+	height: auto;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: auto;
+	margin-bottom: 40px;
+}
+#content_web_design_right_top {
+
+	float: left;
+	width: 510px;
+	height: 185px;
+	margin-top: 50px;
+	margin-left: 10px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	padding-top: 25px;
+}
+
+#content_web_design_right_top_img {
+	float: left;
+	background: url(images/line_arrow.png);
+	height: 128px;
+	width: 128px;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+
+#content_web_design_right_bottom {
+
+	float: left;
+	width: 510px;
+	height: 185px;
+	margin-left: 10px;
+	margin-right: auto;
+	margin-bottom: 40px;
+}
+
+#content_web_design_right_bottom_img {
+	float: left;
+	background: url(images/gears.png);
+	height: 128px;
+	width: 128px;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+
+#content_web_design_packages {
+	width: 510px;
+	float: left;
+	height: 620px;
+	margin-top: 10px;
+	margin-left: 25px;
+}
+#content_web_design_packages button {
+	height: 50px;
+	width: 150px;
+	margin-left: 5px;
+	margin-top: 15px;
+	float: left;
+	background: #BC0000;
+	color: #F1F1F1;
+	border: none;
+}
+
+#package1 {
+	float: left;
+	height: 165px;
+	width: 500px;
+	background: url(images/basic_pkg.png);
+	margin-top: 12px;
+}
+#package2 {
+	float: left;
+	height: 165px;
+	width: 500px;
+	background: url(images/plus_pkg.png);
+	margin-top: 12px;
+}
+#package3 {
+	float: left;
+	height: 165px;
+	width: 500px;
+	background: url(images/ecom_pkg.png);
+	margin-top: 12px;
+}
+
+.package {
+	height: 175px;
+	width: 1030px;
+	float: left;
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+	/**border-bottom: 3px solid #999999;**/
+}
+.package_text {
+	margin-top: 12px;
+	margin-left: 25px;
+	width: 500px;
+	text-align: left;
+	float: left;
+	font-family: 'Raleway', sans-serif;
+	font-size: 17px;
+	color: black;
+}

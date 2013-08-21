@@ -1,0 +1,32 @@
+
+            <!--div id="content_mid">
+            <div class="content_tagline">
+            <h2>WHAT WE DO</h2>
+
+            </div>
+            </div>
+            <p>
+            Let's get ready for some latin text! Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <br/>
+            Donec convallis ullamcorper tortor luctus laoreet.
+            <br/>
+            Suspendisse faucibus congue ultricies. Nulla tincidunt nibh mattis eros posuere hendrerit ac ac velit.
+            <br/>
+            Donec interdum sem quis arcu tempus posuere. Curabitur non diam metus. Mauris congue sagittis posuere.
+            <br/>
+            Nulla at turpis erat, a vestibulum sem. Morbi eget nibh nulla. Mauris semper euismod dui,
+            <br/>
+            eu lobortis tellus cursus ut. Nullam felis felis, ornare eget consectetur lacinia, bibendum in sem.
+            <br/>
+            Morbi vehicula enim at nulla pulvinar fringilla venenatis urna lobortis. Suspendisse molestie pellentesque
+            <br/>
+            massa nec lacinia. Cras ultrices erat ac sapien pellentesque rutrum ac ac arcu. Suspendisse id vulputate felis.
+            <br/>
+            Etiam quis leo urna, a malesuada odio. Sed euismod elit vel ligula congue quis sollicitudin nisi sagittis.
+            <br/>
+
+            </p>
+
+            <div class="content_100pct_hr"></div>
+
+            </div-->

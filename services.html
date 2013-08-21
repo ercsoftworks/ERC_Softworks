@@ -1,0 +1,204 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>EC Computers of Naples</title>        <meta name="keywords" content="Naples Web Design, Naples Custom Software, Web Design, Naples, Florida, Web Sites Naples        ,Web Design Naples, Software Naples, Computer Repair, PC Repair, Computer Repair Naples,        Naples Computer Repair"/>        <link href="style.css" rel="stylesheet" type="text/css"/>        <link href="superfish.css" media="screen" rel="stylesheet"/>        <link href='http://fonts.googleapis.com/css?family=Raleway:600' rel='stylesheet' type='text/css'>    </head>    <body>
+        <!--scripts, scripts, and mo' scripts!-->
+        <script  type="text/javascript" src="scripts/jquery-1.8.3.min.js" ></script>        <script type="text/javascript" src="scripts/main.js"></script>        <script type="text/javascript" src="scripts/FeaturedImageMouseOverAnimate.js"></script>        <script src="scripts/superfish.js"></script>        <script src="scripts/supersubs.js"></script>        <script src="scripts/hoverIntent.js"></script>
+        <!--menu jQuery plugin initializer-->
+        <script>            $(document).ready(function() {
+                $("ul.sf-menu").superfish();
+            });
+        </script>
+        <!--Fade in slide show before the main content area-->
+        <script type=text/javascript>            function slideSwitch() {
+                var $active = $('#slideshow IMG.active');
+                if ($active.length == 0)
+                    $active = $('#slideshow IMG:last');
+                // use this to pull the images in the order they appear in the markup
+                var $next = $active.next().length ? $active.next() : $('#slideshow IMG:first');
+                // use the 3 lines below to pull the images in random order
+                // var $sibs  = $active.siblings();
+                // var rndNum = Math.floor(Math.random() * $sibs.length );
+                // var $next  = $( $sibs[ rndNum ] );
+                $active.addClass('last-active');
+                $next.css({
+                    opacity : 0.0
+                }).addClass('active').animate({
+                    opacity : 1.0
+                }, 1000, function() {
+                    $active.removeClass('active last-active');
+                });
+            }            $(function() {
+                setInterval("slideSwitch()", 8500);
+            });
+        </script>
+        <div id="top_bar">
+        </div>
+        <div id="content_wrapper">
+            <div id="content_wrapper_top">
+                <h1>EC COMPUTERS</h1>
+                <div id="content_wrapper_top_mid">
+                    <p>
+                        Serving Naples since 2010.
+                        <br/>
+                        Yes, we're available for hire!
+                    </p>
+                </div>
+                <div id="content_wrapper_top_right">
+                    <a href="contact.html"><div id="content_wrapper_top_right_container"></div></a>
+                    <p>
+                        Need information or have questions?
+                        Email: info@ercsoftworks.com
+                        <br/>
+                    </p>
+                </div>
+            </div>
+            <div id="header" >
+                <ul class="sf-menu">
+                    <li class="current">
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="index.html">SERVICES</a>
+                        <ul>
+                            <li>
+                                <a href="custom_software.html">CUSTOM SOFTWARE</a>
+                            </li>
+                            <li>
+                                <a href="web_design.html">WEB DEVELOPMENT</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">PORTFOLIO</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">CONTACT</a>
+                    </li>
+                    <li>
+                        <a href="index.html">PAYMENTS</a>
+                    </li>
+                </ul>
+                <div id="header_ribbon"></div>
+            </div>
+            <div id="content_tagline">
+                <h2>Services - What We Do.</h2>
+            </div>
+            <div id="content_main_services">
+                <div id="content_main_col1">
+                    <h2>Web Development</h2>
+                    <p>
+                        All of our websites utiilze current design techniques,
+                        are built upon clean code behind-the-scenes, and are tailored to your exact specifications.
+                        <br/>
+                        <br/>
+                        Our sites use :
+                    </p>
+                    <ul>
+                        <li>
+                            HTML5 &amp; CSS3.
+                        </li>
+                        <li>
+                            Javascript, jQuery, &amp; MySQL.
+                        </li>
+                        <li>
+                            ASP.NET MVC4
+                        </li>
+                        <li>
+                            100% Original Code- NO Templates!
+                        </li>
+                    </ul>
+                </div>
+                <div id="content_main_col2">
+                    <h2>Custom Software Design</h2>
+                    <p>
+                        The days of overpaying for software are over.
+                        Small buisness apps or enterprise solutions...
+                        Let us design, build, and publish your next app.
+                        <br/>
+                        <br/>
+                        Our apps are built with:
+                        <br/>
+                    </p>
+                    <ul>
+                        <li>
+                            C# and the .NET 4.5 Framework
+                        </li>
+                        <li>
+                            WPF &amp; XAML
+                        </li>
+                        <li>
+                            MS-SQL / T-SQL Database Connectivity
+                        </li>
+                        <li>
+                            Custom UI Controls Available.
+                        </li>
+                    </ul>
+                </div>
+                <div id="content_main_col3">
+                    <h2>Most Recent Work</h2>
+                    <p>
+                        Actions speak louder than words.
+                        NEWEST WEBSITES:
+                        <br/>
+                        12/28/2012 <a href="http://eastcoastdrymarchon.com">East Coast Drymarchon</a>
+                        <br/>
+                        12/20/2012 <a href="http://mac-plumbing.com">MAC Plumbing, LLC.</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="footer_content_box">
+                <div id="footer_content_left">
+                    <h3 style="color:#F1F1F1; margin-left:10px;">Worth A Visit...</h3>
+                    <ul>
+                        <li>
+                            <a href="http://www.colorcombos.com">Colorcombos.com -Color Schemes</a>
+                        </li>
+                        <li>
+                            <a href="http://desizntech.info/">Desizntech - Web Dev Resources</a>
+                        </li>
+                        <li>
+                            <a href="http://msdn.microsoft.com/">Microsoft MSDN</a>
+                        </li>
+                        <li>
+                            <a href="http://codeproject.com"> Codeproject.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="footer_content_center">
+                    <h3 style="color:#F1F1F1; margin-left:10px;">About Us...</h3>
+                    <p>
+                        EC Computers is a local web &amp; software development company in Southwest Florida.
+                        We're committed to your complete satisfaction.
+                        <br/>
+                        <br/>
+                        Contact us today for a free quote or consultation!
+                    </p>
+                </div>
+                <div id="footer_content_right"></div>
+            </div>
+        </div>
+        <div id="footer_end">
+            <h4>&copy; 2013 EC Computers, LLC</h4>
+            <ul>
+                <li>
+                    <a href="index.html">home</a>
+                </li>
+                <li>
+                    <a href="services.html">services</a>
+                </li>
+                <li>
+                    <a href="portfolio.html">portfolio</a>
+                </li>
+                <li>
+                    <a href="contact.html">contact</a>
+                </li>
+                <li>
+                    <a href="payments.html">payments</a>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>

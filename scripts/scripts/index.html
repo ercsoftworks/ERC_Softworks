@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<html>
+    <title>EC Computers of Naples</title>
+    <meta keywords="Naples Web Design, Naples Custom Software, Web Design, Naples, Florida, Web Sites Naples
+    ,Web Design Naples, Software Naples, Computer Repair, PC Repair, Computer Repair Naples,
+    Naples Computer Repair"/>
+
+    <body>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+        <script  type="text/javascript" src="scripts/jquery-1.8.3.min.js" ></script>
+        
+        <script type="text/javascript" src="scripts/MouseOverAnimate.js"></script>
+
+        <script type=text/javascript>
+            <!--Fade in slide show before the main content area-->
+            function slideSwitch() {
+            var $active = $('#slideshow IMG.active');
+
+            if ($active.length == 0)
+            $active = $('#slideshow IMG:last');
+
+            // use this to pull the images in the order they appear in the markup
+            var $next = $active.next().length ? $active.next() : $('#slideshow IMG:first');
+
+            // use the 3 lines below to pull the images in random order
+
+            // var $sibs  = $active.siblings();
+            // var rndNum = Math.floor(Math.random() * $sibs.length );
+            // var $next  = $( $sibs[ rndNum ] );
+
+            $active.addClass('last-active');
+
+            $next.css({
+            opacity : 0.0
+            }).addClass('active').animate({
+            opacity : 1.0
+            }, 1000, function() {
+            $active.removeClass('active last-active');
+            });
+            }
+
+            $(function() {
+            setInterval("slideSwitch()", 8500);
+            });
+
+        </script>
+
+        <div id="content_wrapper">
+            <div id="header" class="clearfix">
+                <h1><a>EC Computers</a></h1>
+                <ul class="clearfix">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Payments</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="conent_tagline">
+
+                <div id="content_hrleft">
+                    <hr/>
+                </div>
+                <h2>Web Development &amp; Custom Software in Naples, Florida</h2>
+                <div id="content_hrright">
+                    <hr/>
+                </div>
+            </div>
+
+            <!--div id="content_mid">
+            <div class="content_tagline">
+            <h2>WHAT WE DO</h2>
+            <div id="content_mid_ribbon"></div>
+            </div>
+
+            <p>
+            Let's get ready for some latin text! Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <br/>
+            Donec convallis ullamcorper tortor luctus laoreet.
+            <br/>
+            Suspendisse faucibus congue ultricies. Nulla tincidunt nibh mattis eros posuere hendrerit ac ac velit.
+            <br/>
+            Donec interdum sem quis arcu tempus posuere. Curabitur non diam metus. Mauris congue sagittis posuere.
+            <br/>
+            Nulla at turpis erat, a vestibulum sem. Morbi eget nibh nulla. Mauris semper euismod dui,
+            <br/>
+            eu lobortis tellus cursus ut. Nullam felis felis, ornare eget consectetur lacinia, bibendum in sem.
+            <br/>
+            Morbi vehicula enim at nulla pulvinar fringilla venenatis urna lobortis. Suspendisse molestie pellentesque
+            <br/>
+            massa nec lacinia. Cras ultrices erat ac sapien pellentesque rutrum ac ac arcu. Suspendisse id vulputate felis.
+            <br/>
+            Etiam quis leo urna, a malesuada odio. Sed euismod elit vel ligula congue quis sollicitudin nisi sagittis.
+            <br/>
+
+            </p>
+
+            <div class="content_100pct_hr"></div>
+
+            </div-->
+            <div id="content_bucket_1">
+                <div id="content_bucket_1_header">
+                    WEBSITE CREATION &amp; DESIGN
+                </div>
+                <div id="content_bucket_1_image"></div>
+            </div>
+            <div id="content_bucket_2">
+                <div id="content_bucket_2_header">
+                    CUSTOM SOFTWARE
+                </div>
+                <div id="content_bucket_2_image"></div>
+            </div>
+            <div id="content_bucket_3">
+                <div id="content_bucket_3_header">
+                    COMPUTER SUPPORT
+                </div>
+                <div id="content_bucket_3_image"></div>
+            </div>
+
+            <div id="content_main">
+                <!--slideshow goes here-->
+                <div id="slideshow">
+                    <!--# or 4 images here-->
+                    <img src="/images/slideshow/1web_design.jpg" alt="" class="active" href="web_design.html"/>
+                    <img src="/images/slideshow/2custom_software.jpg" alt="" href="web_design.html"/>
+                    <img src="/images/slideshow/3support.jpg" alt="" href="web_design.html"/>
+
+                </div>
+
+            </div>
+            <div id="content_secondary"></div>
+
+        </div>
+
+        <!--footer-->
+        <div id="footer">
+            <div id="footer_content_box"></div>
+        </div>
+
+    </body>
+</html>

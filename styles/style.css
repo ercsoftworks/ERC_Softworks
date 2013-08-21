@@ -1,0 +1,521 @@
+/***********************************************
+ *
+ * EC Computers LLC
+ * Author- Eric Carestia
+ *
+ * http://ec-computers.com main style sheet
+ *
+ *
+ * Please don't steal my stuff!
+ *
+ **********************************************/
+body {
+	z-index: -1;
+	width: 100%;
+	height: auto;
+	background: url(images/bgtop_75px_ht2.png) repeat-x 0px 0px, url(images/bg_body.png) repeat 0px 202px;
+	margin: 0;
+	padding: 0;
+}
+div {
+	display: block;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: MuseoSans500;
+	color: black;
+	width: auto;
+}
+
+ol, ul {
+	list-style: none;
+}
+li {
+	display: list-item;
+}
+
+article, p {
+	font-family: MuseoSans500;
+	/*font-family: Aliquam;*/
+	font-size: 17px;
+	color: black;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+/**********************************
+ *
+ *Header,Content, and Footer Styles
+ *
+ **********************************/
+
+#header {
+	font-family: MuseoSans500;
+	width: 1070px;
+	background: transparent;
+	color: #F1EFE1;
+	font-size: 14pt;
+	font-weight: 300;
+	height: 75px;
+}
+
+#header_ribbon {
+	height: 100px;
+	width: 79px;
+	float: left;
+	margin-top: -10px;
+	background: url(images/red_ribbon.png);
+}
+
+/*******************Header Nav List Section*************/
+#header ul {
+	margin-top: -65px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	float: right;
+}
+#header li {
+
+	/*background: rgb(181,3,3); /* Old browsers
+	 background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIyNSUiIHN0b3AtY29sb3I9IiNiNTAzMDMiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjOTMwZTBlIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+	 background: -moz-linear-gradient(top,  rgba(181,3,3,1) 25%, rgba(147,14,14,1) 100%); /* FF3.6+
+	 background: -webkit-gradient(linear, left top, left bottom, color-stop(25%,rgba(181,3,3,1)), color-stop(100%,rgba(147,14,14,1))); /* Chrome,Safari4+
+	 background: -webkit-linear-gradient(top,  rgba(181,3,3,1) 25%,rgba(147,14,14,1) 100%); /*Chrome10+,Safari5.1+
+	 background: -o-linear-gradient(top,  rgba(181,3,3,1) 25%,rgba(147,14,14,1) 100%); /* Opera 11.10+
+	 background: -ms-linear-gradient(top,  rgba(181,3,3,1) 25%,rgba(147,14,14,1) 100%); /* IE10+
+	 background: linear-gradient(to bottom,  rgba(181,3,3,1) 25%,rgba(147,14,14,1) 100%); /* W3C
+	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b50303', endColorstr='#930e0e',GradientType=0 ); IE6-8 */
+	/*border-left: 1px solid #6A130D;*/
+	/*background: #f6290c;
+
+	 border-right: 1px solid #C02111;
+	 border-bottom: 3px solid #B12015;
+	 */
+
+	padding-top: 10px;
+	width: 130px;
+	height: 30px;
+	margin-top: 10px;
+	margin-right: 10px;
+	float: left;
+	text-align: center;
+	/****
+	 background: #000;
+	 border-top-left-radius: 8px;
+	 border-top-right-radius: 8px;
+	 border-bottom-left-radius: 8px;
+	 border-bottom-right-radius: 8px;
+
+	 margin-right: 25px;*/
+
+}
+
+#header li a {
+	color: #F1EFE1;
+	padding-top: 20px;
+	text-align: center;
+	position: relative;
+	vertical-align: bottom;
+	text-decoration: none;
+	text-transform: lowercase;
+}
+
+#header li:hover {
+	background-color: #777777;
+	/* ribbon-red...background-color:#DC0404;*/
+}
+
+#header h1 {
+	color: white;
+	float: left;
+	width: auto;
+	height: auto;
+	text-transform: uppercase;
+	margin-top: 15px;
+	padding-left: 10px;
+	text-decoration: overline;
+}
+
+#header h1 a {
+	font-size: 28px;
+	display: block;
+	width: 260px;
+	height: 27px;
+	margin-left: 6px;
+	/**	background:#227115; **/
+	/**background: url(../img/logo.png) no-repeat;**/
+}
+
+#header h1 a:hover, h1 a:visited {
+	color: #AF670A;
+}
+
+#header h2 {
+	font-family: Pacifico;
+	font-size: 28px;
+	float: left;
+	margin-left: 15px;
+	margin-top: 1px;
+	margin-bottom: 20px;
+	width: 100%;
+	height: 27px;
+	padding-top: 18px;
+	color: #C2E0F2;
+	/*color: #83C3EB;*/
+
+}
+
+/*********Content Sub-Styles************/
+#content_wrapper {
+	z-index: 100;
+	/*
+	 background: #EBE0D6;
+	 border-right: 10px solid #F1EFE1;
+	 border-left: 10px solid #F1EFE1;
+	 border-bottom: 10px solid #F1EFE1;
+	 border-top: 10px solid #F1EFE1;
+	 */
+	margin: 10px auto;
+	width: 1070px;
+	position: relative;
+	height: 1150px;
+}
+#content_wrapper h2 {
+
+	font-family: 'Raleway', sans-serif;
+	font-size: 27px;
+	font-weight: 500;
+	float: left;
+	margin-left: 15px;
+	margin-top: 1px;
+	margin-bottom: 20px;
+	width: auto;
+	height: 27px;
+	padding-top: 18px;
+	color: #000000;
+	/*color: #4A4A4A;*
+	 /*color: #C2E0F2;*/
+	/*color: #83C3EB;*/
+}
+
+#content_tagline {
+	margin-top: 20px;
+	width: 1070px;
+	height: 58px;
+}
+
+#content_tagline h2 {
+	margin-left: 0px;
+}
+/*******Content horizontal rules*******/
+#content_hrleft {
+	padding-top: 30px;
+	width: 168px;
+	float: left;
+	margin-left: -80px;
+}
+#content_hrright {
+	padding-top: 30px;
+	width: 168px;
+	float: right;
+	margin-right: 0px;
+}
+
+.content_100pct_hr {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: auto;
+	background: url(images/featured-box-shadow.jpg);
+	height: auto;
+}
+
+/***************Main Area, right below header************/
+#content_main {
+	float: left;
+	width: 710px;
+	height: 300px;
+	margin-top: 40px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border-width: 2px;
+	border-color: white;
+}
+
+/***************Main columns of text, right below content_main slideshow************/
+#content_main_col1 {
+	margin-top: 20px;
+	float: left;
+	width: 340px;
+	height: 400px;
+	margin-right: 10px;
+}
+#content_main_col2 {
+	margin-top: 20px;
+	float: left;
+	width: 340px;
+	height: 400px;
+	margin-right: 10px;
+}
+
+#content_main_col3 {
+	margin-left: 20px;
+	margin-top: 20px;
+	float: left;
+	width: 340px;
+	height: 400px;
+	margin-right: 0px;
+}
+
+#content_main_col3 a {
+	text-decoration: none;
+}
+
+#content_main_col1 ul {
+	list-style: disc;
+	clear: both;
+}
+
+#content_main_col2 ul {
+	list-style: disc;
+	clear: both;
+}
+
+#content_main_col1 li {
+
+	width: 300px;
+	font-family: "Raleway", sans-serif;
+	border-bottom: 1px solid #C7C7B7;
+	margin-left: -10px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	margin-right: 10px;
+}
+
+#content_main_col2 li {
+
+	width: 300px;
+	font-family: "Raleway", sans-serif;
+	border-bottom: 1px solid #C7C7B7;
+	margin-left: -10px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	margin-right: 10px;
+}
+
+#content_main_col1 h2 {
+	width: 395px;
+	clear: both;
+}
+#content_main_col2 h2 {
+	width: 395px;
+	clear: both;
+}
+#content_main_col3 h2 {
+	width: 395px;
+	clear: both;
+}
+
+/*****************Secondary Content, to the right of the #content_main slideshow*********/
+#content_secondary {
+
+	float: left;
+	width: 340px;
+	height: 295px;
+	margin-top: 40px;
+	background: url(images/secondary-content.png);
+	margin-bottom: 10px;
+	border: white 5px solid;
+}
+
+#content_secondary h2 {
+	width: 350px;
+	opacity: 1;
+	font-size: 36px;
+	float: left;
+	clear: right;
+	color: black;
+	font-weight: 500;
+}
+#content_secondary h3 {
+	width: auto;
+	float: left;
+	font-size: 28px;
+	margin-left: 15px;
+	font-weight: 300;
+}
+
+#content_secondary p {
+	opacity: 1;
+	font-size: 16pt;
+}
+
+/************Middle area, optional for other pages*****************/
+#content_mid {
+
+	background: url(images/wmain.png) no-repeat #4A4A3E;
+	width: 1070px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	/*background: #B12015;*/
+	height: 300px;
+}
+
+.feature_image {
+	opacity: 0.7;
+}
+
+#content_shadow {
+	background: url(images/drop-shadow.png) no-repeat;
+	height: 55px;
+	width: 1000px;
+	margin-left: 35px;
+	margin-right: 35px;
+	float: left;
+}
+
+/********Footer Sub-styles*************/
+#footer {
+	z-index: 100;
+	/*position: fixed;*/
+
+	margin-top: -100px;
+	width: 100%;
+	height: 325px;
+	background: url(images/footer.png) repeat;
+}
+#footer_content_box {
+	width: 1070px;
+	height: 325px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+}
+
+#footer_content_left {
+	margin-top: 15px;
+	float: left;
+	width: 321px;
+	height: 295px;
+	/*background: #4A4A3E;*/
+	margin-right: 3%;
+	margin-left: 2%;
+}
+#footer_content_center {
+	margin-top: 15px;
+	float: left;
+	width: 321px;
+	height: 295px;
+	margin-right: 3%;
+}
+#footer_content_right {
+	margin-top: 15px;
+	float: left;
+	width: 321px;
+	height: 295px;
+	margin-right: 2%;
+}
+
+/****Contains Copyright, and repeated links****/
+#footer_bottom {
+	width: 100%;
+	height: 60px;
+	background: transparent;
+}
+
+#footer_bottom_copy {
+	width: 1070px;
+	height: 40px;
+	padding-top: 5px;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+}
+
+/****************************
+ *
+ *Slideshow script
+ *
+ ****************************/
+#slideshow {
+	position: relative;
+	width: 710px;
+	height: 300px;
+}
+
+#slideshow IMG {
+	position: absolute;
+	width: 710px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 8;
+}
+
+#slideshow IMG.active {
+	z-index: 10;
+}
+
+#slideshow IMG.last-active {
+	z-index: 9;
+}
+
+/***********************************
+ *
+ *Class Styles
+ *
+ **********************************/
+.clearfix {
+	display: block;
+}
+
+.clearfix::after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+/************************************
+ *
+ * Font-face declarations
+ *
+ *************************************/
+@font-face {
+	font-family: Aliquam;
+	src: url("Aliquam.eot") /* EOT file for IE */
+}
+
+@font-face {
+	font-family: Aliquam;
+	src: url(fonts/Aliguam.ttf);
+}
+
+@font-face {
+	font-family: MuseoSans500;
+	src: url(fonts/MuseoSans_500.otf);
+}
+@font-face {
+	font-family: BigNoodleTitling;
+	src: url(fonts/big_noodle_titling.ttf);
+}
+@font-face {
+	font-family: BigNoodleTitlingOblique;
+	src: url(fonts/big_noodle_titling_oblique.ttf);
+}
+@font-face {
+	font-family: Pacifico;
+	src: url(fonts/Pacifico.ttf);
+}
+
+@font-face {
+	font-family: AliquamRit;
+	src: url(fonts/AliguamRit.ttf);
+}
+@font-face {
+	font-family: AliquamUlti;
+	src: url(fonts/Aliguamulti.ttf);
+}
+

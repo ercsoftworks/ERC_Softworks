@@ -1,0 +1,391 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <title>ERC Softworks of Naples</title>
+        <meta name="keywords" content="Naples Web Design, Naples Custom Software, Web Design, Naples, Florida, Web Sites Naples
+        ,Web Design Naples,Web Development Naples, Web Site Design Naples,Websites Naples,Websites,Naples Websites,Naples Websites Design,
+        Software Naples, Computer Repair, PC Repair, Computer Repair Naples, Software Programming Naples,Naples Computer Repair"/>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link href="superfish.css" media="screen" rel="stylesheet"/>
+        <link href='http://fonts.googleapis.com/css?family=Raleway:600' rel='stylesheet' type='text/css'/>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300' rel='stylesheet' type='text/css'/>
+
+    </head>
+    <body>
+        <!--scripts, scripts, and mo' scripts!-->
+        <script  type="text/javascript" src="scripts/jquery-1.8.3.min.js" ></script>
+        <script type="text/javascript" src="scripts/TextSlideUp.js"></script>
+        <script src="scripts/superfish.js"></script>
+        <script src="scripts/supersubs.js"></script>
+        <script src="scripts/hoverIntent.js"></script>
+        <script type="text/javascript" src="scripts/MouseOverAnimate.js"></script>
+        <!--menu jQuery plugin initializer-->
+        <script>
+            $(document).ready(function() {
+                $("ul.sf-menu").superfish();
+            });
+        </script>
+        <!--Fade in slide show before the main content area-->
+        <script type=text/javascript>
+            function slideSwitch() {
+                var $active = $('#slideshow IMG.active');
+                if ($active.length == 0)
+                    $active = $('#slideshow IMG:last');
+                // use this to pull the images in the order they appear in the markup
+                var $next = $active.next().length ? $active.next() : $('#slideshow IMG:first');
+                // use the 3 lines below to pull the images in random order
+                // var $sibs  = $active.siblings();
+                // var rndNum = Math.floor(Math.random() * $sibs.length );
+                // var $next  = $( $sibs[ rndNum ] );
+                $active.addClass('last-active');
+                $next.css({
+                    opacity : 0.0
+                }).addClass('active').animate({
+                    opacity : 1.0
+                }, 1000, function() {
+                    $active.removeClass('active last-active');
+                });
+            }
+
+            $(function() {
+                setInterval("slideSwitch()", 8500);
+            });
+        </script>
+        <div id="header">
+            <div id="header_bar">
+                <div id="content_wrapper_top"></div>
+                <div id="header_nav">
+                    <ul class="sf-menu">
+                        <li class="current">
+                            <a href="index.html">HOME</a>
+                        </li>
+                        <li>
+                            <a href="index.html">SERVICES</a>
+                            <ul>
+                                <li>
+                                    <a href="custom_software.html">CUSTOM SOFTWARE</a>
+                                </li>
+                                <li>
+                                    <a href="web_design.html">WEB DEVELOPMENT</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="portfolio.html">PORTFOLIO</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">CONTACT</a>
+                        </li>
+                        <li>
+                            <a href="index.html">PAYMENTS</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <div id="content_wrapper"class ="parent-element">
+            <!--tile box to the left-->
+            <div id="box_left">
+                <div id = "content_wrapper_top_mid" style="float:right;">
+                    <p>
+                        Serving Naples, FL Since 2010.
+                        <br/>
+                        Yes, we're for hire!
+                    </p>
+                </div>
+            </div>
+            <!--This part holds the slideshow-->
+            <div id="content_main">
+                <a href="contact.html">
+                <div id="slideshow">
+                    <img src="images/slideshow/web_image.png" alt="" class="active" />
+                    <img src="images/slideshow/code_image.png" alt=""/>
+                    <img src="images/slideshow/service_image.png" alt=""/>
+                </div> </a>
+            </div>
+            <div id="content_main_bottom">
+                <div id="text_slide">
+                    <p class="active">
+                        Small business and personal sites are what we do.
+                    </p>
+                    <p>
+                        Let us build your next application!
+                    </p>
+                    <p>
+                        Special pricing is available.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="divider2"></div>
+        <div class="container_eigth">
+            <div class="container_eigth_left65" >
+                <h2 class="h2container" >Welcome.</h2>
+            </div>
+        </div>
+        
+        
+        <div class="bigcontainer">
+            <div class="container_half_left65">
+                <p style="font-size:16px; font-weight:200px; margin-left:5px;">
+                    We're a local software and web development company based out of Naples, Florida.
+                    <br/>
+                    Our goal is simple: provide our clients with the highest quality, custom tailored product at a reasonable price; and
+                    since our founding in 2010, we've had the pleasure of bringing those products and ideas to life.
+                    <br/>
+                    <br/>
+                    ERC Softworks combines hands-on experience and formal university education in computer science to not only meet, but exceed your expectaions.
+                    We apply the following principles to everything we create:
+                </p>
+                <div class="column_half" style="background:#C9D8DB;">
+                    <h3 class="h3col">Reliability.</h3>
+                    <p class="pcol">
+                        Making sure that your application is there for you, however complex it may be,
+                        is of vital importance. ERC Softworks will work closely with you to guarantee
+                        the right level of user-friendliness, aesthetics, and data integrity is set for you and your app's users.
+                    </p>
+                </div>
+                <div class="column_halflast" style="background:#C9D8DB;">
+                    <h3 class="h3col">Usability.</h3>
+                    <p class = "pcol">
+                        It's essential that your site is easy to navigate and simple to use.
+                        Your site's users have to be able to find what they want...and fast.
+                        We will fine-tune the functionality of your new website
+                        to ensure that user experiences are simple, effective - and profitable for you.
+                    </p>
+                </div>
+            </div>
+            <div class="container_half_right30">
+
+                <div class="first_main_col" style="margin-left:0%; margin-top:37px;">
+                    <div class="text_box">
+                        <div class="top_text1">
+                            <h2>Do I Need a Website?</h2>
+                            <p>
+                                Let's face it, the phonebook has gone the way of the dinosaur.
+                                In today's world, it's critical that your business has an online presence.
+                                <br/>
+                                <br/>
+                                In short: Yes!
+                            </p>
+                        </div>
+                        <div class="top_text2">
+                            <h2>Time For an Update?</h2>
+                            <p>
+                                Comic Sans. Sparkling Backgrounds. Don't let bad design happen to you!
+                                <br/>
+                                <br/>
+                                If you have a website that used to be new and cutting edge
+                                that now looks a little dated or needs a refresh, We'd love to help!
+                            </p>
+                        </div>
+                        <div class="top_text3">
+                            <h2>It's YOUR App!</h2>
+                            <p>
+                                Good ideas are unique and are definietly not a dime-a-dozen.
+                                <br/>
+                                <br/>
+                                With ERC Softworks, your intellectual property stays yours.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bottom_img1"></div>
+                    <div class="bottom_img2"></div>
+                    <div class="bottom_img3"></div>
+                    </div>
+
+                    <!--div id="content_box_left">
+                    <div id="content_left_container_top">
+                    <a href="contact.html"><div id="container_left_container_img1" ></div></a>
+                    </div>
+                    <div id="content_left_container_bottom">
+                    <a href="custom_software.html"><div id="container_left_container_img2" ></div></a>
+                    <div id="container_left_container_img3" ></div>
+                    </div>
+                    </div-->
+                </div>
+
+                <div class="container_eigth" style="background:#FFFFFF;">
+
+                    <div class="container_eigth_left65">
+                        <h2 class="h2container">Our Services.</h2>
+                    </div>
+                </div>
+
+                <div class="column_half">
+                    <h2>Custom Software Design</h2>
+                    <div class="win8pic"></div>
+
+                    <p class="pcol" style="text-align:justify;">
+                        We build a variety of applications, and offer
+                        <br/>
+                        all our services - scoping,
+                        architecture, specification, design, UI developement and back-end database development.
+                        <br/>
+                        <br/>
+                        ERC Softworks can take your app from inception to completion.
+                        Alternatively, you can call on us for any one of these individual areas of expertise.
+                    </p>
+                </div>
+
+                <div class="column_halflast">
+                    <h2>Web Development</h2>
+                    <div class="websample"></div>
+
+                    <p class="pcol" style="text-align:justify;">
+                        Functional design is a key part of our process.
+                        <br/>
+                        <br/>
+                        We look at your website from an architectural point of
+                        view and determine where each page and page element should go within the structure of the site, how
+                        they should link together, and how they should function.
+                    </p>
+                </div>
+                <div class="blank_divider"></div>
+                <div class="column_half">
+
+                    <p>
+                        The days of overpaying for software are over.
+                        Small buisness apps for the Microsoft Windows OS are our specialty.
+                        Let us design, build, and publish your next app.
+                        <br/>
+                        <br/>
+                        Our apps are built with:
+                        <br/>
+                    </p>
+                    <ul>
+                        <li>
+                            C# and the .NET 4.5 Framework
+                        </li>
+                        <li>
+                            WPF &amp; XAML
+                        </li>
+                        <li>
+                            MS-SQL / T-SQL Databases
+                        </li>
+                        <li>
+                            Custom UI Controls Available.
+                        </li>
+                    </ul>
+                    <button style="width: 300px;  margin-left:15px; " onclick="window.location='http://ercsoftworks.com/custom_software.html'">
+                        Learn More.
+                    </button>
+                </div>
+
+                <div class="column_halflast">
+
+                    <p>
+                        All of our websites utiilze current design techniques,
+                        are built upon clean code behind-the-scenes, and tailored to your exact specifications.
+                        <br/>
+                        <br/>
+                        Our sites use :
+                    </p>
+                    <ul>
+                        <li>
+                            HTML5 &amp; CSS3.
+                        </li>
+                        <li>
+                            Javascript, jQuery, &amp; MySQL.
+                        </li>
+                        <li>
+                            ASP.NET MVC4
+                        </li>
+                        <li>
+                            100% Original Code- NO Templates!
+                        </li>
+                    </ul>
+
+                    <button style="width: 300px;  margin-left:15px;" onclick="window.location='http://ercsoftworks.com/web_design.html'">
+                        Learn More.
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--div class="divider2"></div>
+        <div class="container_eigth" style="background:#FFFFFF;">
+
+        <div class="container_eigth_left65">
+        <h2 class="h2container">Our Services.</h2>
+        </div>
+        </div>
+        <div class="container" style="margin-bottom:50px;">
+
+        <div class="first_main_col" style=" margin-left:0%;">
+        <div class="text_box">
+        <div class="top_text1">
+        <h2>Do I Need a Website?</h2>
+        <p>
+        Let's face it, the phonebook has gone the way of the dinosaur.
+        In today's world, it's critical that your business has an online presence.
+        <br/>
+        <br/>
+        In short: Yes!
+        </p>
+        </div>
+        <div class="top_text2">
+        <h2>Time For an Update?</h2>
+        <p>
+        Comic Sans. Sparkling Backgrounds. Don't let bad design happen to you!
+        <br/>
+        <br/>
+        If you have a website that used to be new and cutting edge
+        that now looks a little dated or needs a refresh, We'd love to help!
+        </p>
+        </div>
+        <div class="top_text3">
+        <h2>It's YOUR App!</h2>
+        <p>
+        Good ideas are unique and are definietly not a dime-a-dozen.
+        <br/>
+        <br/>
+        With ERC Softworks, your intellectual property stays yours.
+        </p>
+        </div>
+        </div>
+        <div class="bottom_img1"></div>
+        <div class="bottom_img2"></div>
+        <div class="bottom_img3"></div>
+        </div-->
+
+        
+        </div>
+        <div id="footer_bar">
+            <div id="footer_top">
+                <div id="footer_logo"></div>
+                <div id="footer_slogan">
+                    <h3>Web Development. Custom Software. 100% Awesome.</h3>
+                </div>
+            </div>
+            <div id="footer_end">
+                <h4>&copy; 2013 ERC Softworks, LLC</h4>
+                <ul>
+                    <li>
+                        <a href="index.html">home</a>
+                    </li>
+                    <li>
+                        <a href="web_design.html">Web</a>
+                    </li>
+                    <li>
+                        <a href="custom_software.html">Software</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">portfolio</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">contact</a>
+                    </li>
+                    <li>
+                        <a href="payments.html">payments</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

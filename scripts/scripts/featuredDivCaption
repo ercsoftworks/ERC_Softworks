@@ -1,0 +1,16 @@
+
+
+$(function(){
+	$("#bottom_img".hover(function(){
+		(this).parent(find(".top_text".find("overlay")).fadeIn();
+		}
+		,function(){
+			$(this).parent(.find("overlay")).fadeOut();
+			}
+			);
+});
+
+
+
+
+
